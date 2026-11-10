@@ -1,0 +1,10 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import worker from '../server/worker.mjs';
+const root=fileURLToPath(new URL('../dist/',import.meta.url));
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.ttf':'font/ttf','.txt':'text/plain'};
+const env={SITE_URL:'https://gilded-ledger.us',ASSETS:{async fetch(request){const pathname=decodeURIComponent(new URL(request.url).pathname);const file=path.resolve(root,'.'+(pathname.endsWith('/')?pathname+'index.html':pathname));if(!file.startsWith(root))return new Response('Not found',{status:404});try{return new Response(await fs.readFile(file),{headers:{'content-type':types[path.extname(file)]||'application/octet-stream'}});}catch{return new Response('Not found',{status:404});}}}};
+const server=http.createServer(async(req,res)=>{try{const chunks=[];let count=0;for await(const chunk of req){count+=chunk.length;if(count>3*1024*1024){res.writeHead(413);res.end();return;}chunks.push(chunk);}const request=new Request('http://127.0.0.1:'+port+req.url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)});const result=await worker.fetch(request,env,{});res.writeHead(result.status,Object.fromEntries(result.headers));res.end(Buffer.from(await result.arrayBuffer()));}catch(error){res.writeHead(500);res.end(error.message);}});
+const port=Number(process.env.PORT||4176);server.listen(port,'127.0.0.1',()=>console.log('Gilded Ledger journal preview: http://127.0.0.1:'+port));

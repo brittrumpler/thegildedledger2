@@ -1,0 +1,19 @@
+{
+  "name": "the-gilded-ledger",
+  "version": "3.0.0",
+  "private": true,
+  "description": "A Sea of Thieves treasure, cosmetics and commendations journal with Cloudflare account support.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.mjs",
+    "data:sync": "python3 scripts/sync_data.py --images",
+    "data:enrich": "python3 scripts/enrich_data.py --images",
+    "data:refresh-prices": "python3 scripts/enrich_data.py --refresh",
+    "test:importers": "python3 -m unittest discover -s tests -p 'test_*.py'"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
