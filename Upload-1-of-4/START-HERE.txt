@@ -1,0 +1,28 @@
+THE GILDED LEDGER — PIRATE JOURNAL UPDATE
+
+Upload the CONTENTS of this extracted ZIP to your GitHub repository.
+Keep index.html, package.json and wrangler.jsonc at the repository root.
+Keep the assets, data, server, scripts and tests folders intact.
+Do not upload the ZIP itself to the repository.
+
+CLOUDFLARE WORKER BUILD SETTINGS
+Production branch: main
+Root directory: leave blank
+Build command: npm run build
+Deploy command: npx wrangler deploy
+
+The new wrangler.jsonc installs both the website and its server routes.
+The Worker name is the-gilded-ledger; change it if your existing Worker name differs.
+The configured website URL is https://gilded-ledger.us.
+
+All catalog features and local profile-file imports work immediately.
+Microsoft account sign-in requires your own app registration and secrets.
+Account saves across devices additionally need a Cloudflare KV binding.
+Read ACCOUNT-SETUP.md for exact steps. Never put secrets in GitHub.
+
+This release includes 9,117 cosmetics, 1,340 source-listed commendation/title
+entries, treasure acquisition guides, photos, requirements, rewards, local
+progress, wish lists and account-ready server code.
+
+The catalog snapshot is sourced and dated. Unknown records stay unknown.
+Cosmetic photos load on demand; the original treasure images remain bundled.
