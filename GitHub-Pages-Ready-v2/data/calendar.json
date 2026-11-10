@@ -1,0 +1,13 @@
+{
+  "reviewedAt": "2026-11-10",
+  "source": "https://www.seaofthieves.com/event-hub",
+  "goldRush": {"hoursUTC": [1,17], "durationMinutes":60, "multiplier":1.5, "note":"Gold Rush is normally suspended during gold multiplier events. Check the in-game notice before selling."},
+  "announcements": [
+    {"id":"twitch-november","name":"Twitch Drops","start":"2026-11-06T10:00:00Z","end":"2026-11-11T10:00:00Z","description":"Watch participating Sea of Thieves streams with linked accounts to earn this month’s rewards.","source":"https://www.seaofthieves.com/event-hub","dateOnly":false},
+    {"id":"bilge-november","name":"Bilge Rats Weekender · Festival of Fishing","start":"2026-11-13T00:00:00Z","end":"2026-11-17T00:00:00Z","displayDates":"13–16 November 2026 · exact hours unconfirmed","description":"A November Weekender with challenges and the return of the Festival of Fishing. Date-only announcement; verify exact opening and closing hours in game.","source":"https://www.seaofthieves.com/news/this-month-november2026","dateOnly":true}
+  ],
+  "recurring": [
+    {"id":"emissaries","name":"Emissaries of Fortune","dayUTC":3,"hourUTC":10,"durationHours":24,"validFrom":"2026-11-01T00:00:00Z","validUntil":"2026-12-01T00:00:00Z","description":"Wednesday’s 24-hour company event, scheduled for November. Raise your chosen company’s flag for increased rewards.","source":"https://www.seaofthieves.com/news/this-month-november2026"}
+  ],
+  "notes": ["Fight Nights is announced for Tuesdays in November, except during Last Ship Standing. Exact windows are not confirmed here; consult the official Events Hub.","Gold & Glory and Community Weekend dates are announced separately. No unconfirmed future weekends are generated."]
+}

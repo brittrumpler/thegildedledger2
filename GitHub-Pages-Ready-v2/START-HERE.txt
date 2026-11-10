@@ -1,0 +1,27 @@
+THE GILDED LEDGER — GITHUB PAGES
+
+1. Extract this ZIP first. Do not upload the ZIP itself to GitHub.
+2. Upload the files and folders INSIDE this folder to your repository.
+   index.html must appear on the repository's main page, not inside a second folder.
+3. In GitHub: Settings > Pages > Source > Deploy from a branch.
+4. Choose main and /(root), then Save.
+5. Wait for the Pages deployment to finish and open the URL GitHub provides.
+
+No build or package installation is needed for this method.
+Open index.html on your computer to preview the site before uploading.
+Keep the assets and data folders intact: item images are stored in six image packs.
+Do not delete .js files: several contain the image and catalog data.
+
+AUTOMATIC REFRESH (OPTIONAL)
+For automatic data refresh and deployment, install the optional workflow:
+- On GitHub choose Add file > Create new file.
+- Name it .github/workflows/pages.yml.
+- Paste the contents of the included github-pages-workflow.yml, then commit.
+- Change Settings > Pages > Source to GitHub Actions.
+- Open Actions > Refresh data and publish Pages > Run workflow.
+
+The scheduled workflow attempts a daily catalog/bulk price refresh.
+If an upstream site is unavailable, it publishes the bundled last-known data.
+Limited-time calendar announcements still need manual review.
+
+See README.md for maintenance and data-coverage notes.

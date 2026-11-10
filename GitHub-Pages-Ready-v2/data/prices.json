@@ -1,0 +1,3193 @@
+{
+  "castawayschest": {
+    "min": 60,
+    "max": 130,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678638+00:00",
+    "status": "source-table"
+  },
+  "seafarerschest": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678695+00:00",
+    "status": "source-table"
+  },
+  "marauderschest": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678703+00:00",
+    "status": "source-table"
+  },
+  "captainschest": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678710+00:00",
+    "status": "source-table"
+  },
+  "sailorschest": {
+    "min": 1000,
+    "max": 1050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678716+00:00",
+    "status": "source-table"
+  },
+  "seamasterschest": {
+    "min": 1500,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678723+00:00",
+    "status": "source-table"
+  },
+  "admiralschest": {
+    "min": 1525,
+    "max": 1575,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678729+00:00",
+    "status": "source-table"
+  },
+  "baronschest": {
+    "min": 2000,
+    "max": 2050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678735+00:00",
+    "status": "source-table"
+  },
+  "kingschest": {
+    "min": 3000,
+    "max": 3100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678741+00:00",
+    "status": "source-table"
+  },
+  "coralcastawayschest": {
+    "min": 105,
+    "max": 228,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678749+00:00",
+    "status": "source-table"
+  },
+  "coralseafarerschest": {
+    "min": 245,
+    "max": 455,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678755+00:00",
+    "status": "source-table"
+  },
+  "coralmarauderschest": {
+    "min": 490,
+    "max": 910,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678761+00:00",
+    "status": "source-table"
+  },
+  "coralcaptainschest": {
+    "min": 980,
+    "max": 1925,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678767+00:00",
+    "status": "source-table"
+  },
+  "ashencastawayschest": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678775+00:00",
+    "status": "source-table"
+  },
+  "ashenseafarerschest": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678780+00:00",
+    "status": "source-table"
+  },
+  "ashenmarauderschest": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678786+00:00",
+    "status": "source-table"
+  },
+  "ashencaptainschest": {
+    "min": 1100,
+    "max": 2100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678792+00:00",
+    "status": "source-table"
+  },
+  "ashensailorschest": {
+    "min": 1300,
+    "max": 1350,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678797+00:00",
+    "status": "source-table"
+  },
+  "ashenseamasterschest": {
+    "min": 1700,
+    "max": 1798,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678803+00:00",
+    "status": "source-table"
+  },
+  "ashenadmiralschest": {
+    "min": 1825,
+    "max": 1875,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678809+00:00",
+    "status": "source-table"
+  },
+  "ashenbaronschest": {
+    "min": 2250,
+    "max": 2300,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678814+00:00",
+    "status": "source-table"
+  },
+  "ashenkingschest": {
+    "min": 3700,
+    "max": 3800,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678820+00:00",
+    "status": "source-table"
+  },
+  "chestofthedamned": {
+    "min": 1000,
+    "max": 1160,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678828+00:00",
+    "status": "source-table"
+  },
+  "skeletoncaptainschest": {
+    "min": 1150,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678834+00:00",
+    "status": "source-table"
+  },
+  "strongholdchest": {
+    "min": 1500,
+    "max": 3000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678840+00:00",
+    "status": "source-table"
+  },
+  "chestofancienttributes": {
+    "min": 3400,
+    "max": 3900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678846+00:00",
+    "status": "source-table"
+  },
+  "chestoffortune": {
+    "min": 20000,
+    "max": 20000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678853+00:00",
+    "status": "source-table"
+  },
+  "chestofbanishedtribute": {
+    "min": 3125,
+    "max": 3125,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678859+00:00",
+    "status": "source-table"
+  },
+  "chestofathousandgrogs": {
+    "min": 2200,
+    "max": 2600,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678867+00:00",
+    "status": "source-table"
+  },
+  "chestofsorrow": {
+    "min": 3000,
+    "max": 3500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678873+00:00",
+    "status": "source-table"
+  },
+  "chestofrage": {
+    "min": 3000,
+    "max": 3500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678879+00:00",
+    "status": "source-table"
+  },
+  "chestofeverlastingsorrow": {
+    "min": 6000,
+    "max": 6800,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678885+00:00",
+    "status": "source-table"
+  },
+  "chestofboundlesssorrow": {
+    "min": 6000,
+    "max": 6800,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678891+00:00",
+    "status": "source-table"
+  },
+  "foulbountyskull": {
+    "min": 90,
+    "max": 180,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040393+00:00",
+    "status": "source-table"
+  },
+  "disgracedbountyskull": {
+    "min": 180,
+    "max": 350,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040418+00:00",
+    "status": "source-table"
+  },
+  "hatefulbountyskull": {
+    "min": 350,
+    "max": 750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040426+00:00",
+    "status": "source-table"
+  },
+  "villainousbountyskull": {
+    "min": 750,
+    "max": 1450,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040434+00:00",
+    "status": "source-table"
+  },
+  "darkbountyskull": {
+    "min": 1000,
+    "max": 1050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040441+00:00",
+    "status": "source-table"
+  },
+  "vilebountyskull": {
+    "min": 1500,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040447+00:00",
+    "status": "source-table"
+  },
+  "corruptedbountyskull": {
+    "min": 2440,
+    "max": 2460,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040454+00:00",
+    "status": "source-table"
+  },
+  "viciousbountyskull": {
+    "min": 3600,
+    "max": 3650,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040460+00:00",
+    "status": "source-table"
+  },
+  "wrathfulkingsbountyskull": {
+    "min": 5100,
+    "max": 5200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040467+00:00",
+    "status": "source-table"
+  },
+  "foulcoralskull": {
+    "min": 158,
+    "max": 315,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040476+00:00",
+    "status": "source-table"
+  },
+  "disgracedcoralskull": {
+    "min": 315,
+    "max": 613,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040482+00:00",
+    "status": "source-table"
+  },
+  "hatefulcoralskull": {
+    "min": 613,
+    "max": 1313,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040489+00:00",
+    "status": "source-table"
+  },
+  "villainouscoralskull": {
+    "min": 1313,
+    "max": 2538,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040495+00:00",
+    "status": "source-table"
+  },
+  "ashenfoulbountyskull": {
+    "min": 180,
+    "max": 350,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040502+00:00",
+    "status": "source-table"
+  },
+  "ashendisgracedbountyskull": {
+    "min": 350,
+    "max": 750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040509+00:00",
+    "status": "source-table"
+  },
+  "ashenhatefulbountyskull": {
+    "min": 750,
+    "max": 1450,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040515+00:00",
+    "status": "source-table"
+  },
+  "ashenvillainousbountyskull": {
+    "min": 1450,
+    "max": 2800,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040522+00:00",
+    "status": "source-table"
+  },
+  "ashendarkbountyskull": {
+    "min": 1240,
+    "max": 1260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040528+00:00",
+    "status": "source-table"
+  },
+  "ashenvilebountyskull": {
+    "min": 1850,
+    "max": 1900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040534+00:00",
+    "status": "source-table"
+  },
+  "ashencorruptedbountyskull": {
+    "min": 3210,
+    "max": 3230,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040540+00:00",
+    "status": "source-table"
+  },
+  "ashenviciousbountyskull": {
+    "min": 4800,
+    "max": 4850,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040546+00:00",
+    "status": "source-table"
+  },
+  "ashenkingsbountyskull": {
+    "min": 5800,
+    "max": 5900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040552+00:00",
+    "status": "source-table"
+  },
+  "skullofthedamned": {
+    "min": 1050,
+    "max": 1250,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040564+00:00",
+    "status": "source-table"
+  },
+  "captainskullofthedamned": {
+    "min": 1700,
+    "max": 2950,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040571+00:00",
+    "status": "source-table"
+  },
+  "skeletoncaptainsskull": {
+    "min": 850,
+    "max": 2200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040581+00:00",
+    "status": "source-table"
+  },
+  "strongholdskull": {
+    "min": 1800,
+    "max": 4200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040588+00:00",
+    "status": "source-table"
+  },
+  "goldhoardersskull": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040595+00:00",
+    "status": "source-table"
+  },
+  "ancientgoblet": {
+    "min": 60,
+    "max": 130,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "bronzesecretkeeper": {
+    "min": 60,
+    "max": 130,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "mysteriousvessel": {
+    "min": 60,
+    "max": 130,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "silveredcup": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "elaborateflagon": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "decorativecoffer": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "gildedchalice": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "ornatecarafe": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "goldenreliquary": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "adornedreceptacle": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "opulentcurio": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "peculiarrelic": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "roaringgoblet": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411740+00:00",
+    "status": "source-table"
+  },
+  "brimstonecasket": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411744+00:00",
+    "status": "source-table"
+  },
+  "devilsremnant": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411749+00:00",
+    "status": "source-table"
+  },
+  "magmasgrail": {
+    "min": 1100,
+    "max": 2100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411753+00:00",
+    "status": "source-table"
+  },
+  "vesseloffire": {
+    "min": 3300,
+    "max": 3350,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411759+00:00",
+    "status": "source-table"
+  },
+  "crownofflame": {
+    "min": 3800,
+    "max": 3900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411763+00:00",
+    "status": "source-table"
+  },
+  "crownofhope": {
+    "min": 3100,
+    "max": 3200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10",
+    "status": "researched"
+  },
+  "crateoffinesugar": {
+    "min": 100,
+    "max": 200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782741+00:00",
+    "status": "source-table"
+  },
+  "crateofraretea": {
+    "min": 260,
+    "max": 470,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782765+00:00",
+    "status": "source-table"
+  },
+  "crateofexoticsilks": {
+    "min": 500,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782776+00:00",
+    "status": "source-table"
+  },
+  "crateofexquisitespices": {
+    "min": 1100,
+    "max": 1900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782786+00:00",
+    "status": "source-table"
+  },
+  "ashenchestoflegends": {
+    "min": 13000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141938+00:00",
+    "status": "source-table"
+  },
+  "chaliceofancientfortune": {
+    "min": 570,
+    "max": 620,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141950+00:00",
+    "status": "source-table"
+  },
+  "gildedrelicofancientfortune": {
+    "min": 1400,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141959+00:00",
+    "status": "source-table"
+  },
+  "legendaryfortunekeeper": {
+    "min": 2500,
+    "max": 2750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141968+00:00",
+    "status": "source-table"
+  },
+  "athenasrelic": {
+    "min": 3500,
+    "max": 3800,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141975+00:00",
+    "status": "source-table"
+  },
+  "skullofancientfortune": {
+    "min": 570,
+    "max": 620,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141986+00:00",
+    "status": "source-table"
+  },
+  "skullofdestiny": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141994+00:00",
+    "status": "source-table"
+  },
+  "villainousskullofancientfortune": {
+    "min": 1400,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142002+00:00",
+    "status": "source-table"
+  },
+  "crateoflegendaryvoyages": {
+    "min": 570,
+    "max": 620,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142011+00:00",
+    "status": "source-table"
+  },
+  "kegofancientblackpowder": {
+    "min": 3000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142019+00:00",
+    "status": "source-table"
+  },
+  "jarofathenasincense": {
+    "min": 1400,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142054+00:00",
+    "status": "source-table"
+  },
+  "offeringoflegendarygoods": {
+    "min": 2500,
+    "max": 2750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142061+00:00",
+    "status": "source-table"
+  },
+  "artifactoflegendaryhunger": {
+    "min": 2500,
+    "max": 2750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142068+00:00",
+    "status": "source-table"
+  },
+  "skullofathenasblessing": {
+    "min": 3550,
+    "max": 3850,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142076+00:00",
+    "status": "source-table"
+  },
+  "talismanoffortunes": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142086+00:00",
+    "status": "source-table"
+  },
+  "talismanofgreatfortunes": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142093+00:00",
+    "status": "source-table"
+  },
+  "talismanofmagnificentfortunes": {
+    "min": 15000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.142101+00:00",
+    "status": "source-table"
+  },
+  "cognacoffortune": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Cognac_of_Fortune",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "floraoffortune": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Flora_of_Fortune",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "silksoffortune": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Silks_of_Fortune",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "ashenwindsskull": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040602+00:00",
+    "status": "source-table"
+  },
+  "obsidianashenwindsskull": {
+    "min": 2500,
+    "max": 2500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040619+00:00",
+    "status": "source-table"
+  },
+  "skullofdarkbanishment": {
+    "min": 2500,
+    "max": 2500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040627+00:00",
+    "status": "source-table"
+  },
+  "skullofsirensong": {
+    "min": 50000,
+    "max": 50000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040637+00:00",
+    "status": "source-table"
+  },
+  "skullofsirensorrow": {
+    "min": 2500,
+    "max": 2500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bounty_Skulls",
+    "checkedAt": "2026-11-10T16:11:13.040644+00:00",
+    "status": "source-table"
+  },
+  "skullofarms": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Skull_of_Arms",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "mysteriouscoralvessel": {
+    "min": 105,
+    "max": 228,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411721+00:00",
+    "status": "source-table"
+  },
+  "silveredcoralcup": {
+    "min": 245,
+    "max": 455,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411725+00:00",
+    "status": "source-table"
+  },
+  "goldencoralreliquary": {
+    "min": 490,
+    "max": 910,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411730+00:00",
+    "status": "source-table"
+  },
+  "peculiarcoralrelic": {
+    "min": 980,
+    "max": 1925,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Artefacts",
+    "checkedAt": "2026-11-10T16:11:13.411735+00:00",
+    "status": "source-table"
+  },
+  "crateofimmaculatediamonds": {
+    "min": 3000,
+    "max": 3100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782795+00:00",
+    "status": "source-table"
+  },
+  "crateofvolcanicstone": {
+    "min": 260,
+    "max": 470,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782807+00:00",
+    "status": "source-table"
+  },
+  "crateoffineore": {
+    "min": 500,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782816+00:00",
+    "status": "source-table"
+  },
+  "crateofextraordinaryminerals": {
+    "min": 1100,
+    "max": 1900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782825+00:00",
+    "status": "source-table"
+  },
+  "crateofpreciousgemstones": {
+    "min": 2100,
+    "max": 3600,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782834+00:00",
+    "status": "source-table"
+  },
+  "ashesofthedamned": {
+    "min": 1150,
+    "max": 1400,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782845+00:00",
+    "status": "source-table"
+  },
+  "crateofancientbonedust": {
+    "min": 2100,
+    "max": 5400,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trade_Good_Crates",
+    "checkedAt": "2026-11-10T16:11:13.782853+00:00",
+    "status": "source-table"
+  },
+  "chestoflegends": {
+    "min": 8600,
+    "max": 11000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Treasure",
+    "checkedAt": "2026-11-10T16:11:14.141914+00:00",
+    "status": "source-table"
+  },
+  "allseeingeyeofsouls": {
+    "min": 15000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/All-Seeing_Eye_of_Souls",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ammocrate": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ammo_Crate",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ancientchest": {
+    "min": 250,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ancient_Chest",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ancientlegacyfireworkcrate": {
+    "min": 1000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ancient_Legacy_Firework_Crate",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "argentsilverkey": {
+    "min": 1000,
+    "max": 1700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Argent_Silver_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "ashencasketofgildedbones": {
+    "min": 8125,
+    "max": 8850,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Casket_of_Gilded_Bones",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashencasketofmottledbones": {
+    "min": 6100,
+    "max": 6825,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Casket_of_Mottled_Bones",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashencasketofshadowedbones": {
+    "min": 7425,
+    "max": 8175,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Casket_of_Shadowed_Bones",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashencasketofverdantbones": {
+    "min": 6775,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Casket_of_Verdant_Bones",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenchest": {
+    "min": 520,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Chest",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenchestofbones": {
+    "min": 12150,
+    "max": 12150,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Chest_of_Bones",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenkey": {
+    "min": 520,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Key",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenreaperdisciplesurn": {
+    "min": 7900,
+    "max": 7900,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Reaper_Disciple%27s_Urn",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenreaperfollowersurn": {
+    "min": 7225,
+    "max": 7225,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Reaper_Follower%27s_Urn",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenreapermastersurn": {
+    "min": 8850,
+    "max": 8850,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Reaper_Master%27s_Urn",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenreaperservantsurn": {
+    "min": 8575,
+    "max": 8575,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Reaper_Servant%27s_Urn",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashenskullofthebanished": {
+    "min": 16875,
+    "max": 16875,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Skull_of_the_Banished",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "ashesofruin": {
+    "min": 2250,
+    "max": 2300,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashes_of_Ruin",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "athenasfortunefireworkcrate": {
+    "min": 1000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Athena%27s_Fortune_Firework_Crate",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "baitcrate": {
+    "min": 900,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bait_Crate",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "banishedancientrunetablet": {
+    "min": 2000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Banished_Ancient_Rune_Tablet",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "banishedmerchantlog": {
+    "min": 2500,
+    "max": 2500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Banished_Merchant_Log",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "bewitchingdoll": {
+    "min": 1690,
+    "max": 1710,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bewitching_Doll",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "blackpowderbarrel": {
+    "min": 13000,
+    "max": 13000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Black_Powder_Barrel",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "boxofwondroussecrets": {
+    "min": 25000,
+    "max": 25000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Box_of_Wondrous_Secrets",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "bullioncrown": {
+    "min": 9800,
+    "max": 10200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bullion_Crown",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "bulliongoldkey": {
+    "min": 1000,
+    "max": 1700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bullion_Gold_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "cannonofrage": {
+    "min": 250,
+    "max": 250,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Cannon_of_Rage",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "cannonballcrate": {
+    "min": 600,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Cannonball_Crate",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "cannonballcrateofthedamned": {
+    "min": 900,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Cannonball_Crate_of_the_Damned",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "captainslogbook": {
+    "min": 300,
+    "max": 25000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Captain%27s_Logbook",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "casketofgildedbones": {
+    "min": 5500,
+    "max": 6000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Casket_of_Gilded_Bones",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "casketofmottledbones": {
+    "min": 4000,
+    "max": 4500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Casket_of_Mottled_Bones",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "casketofshadowedbones": {
+    "min": 5000,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Casket_of_Shadowed_Bones",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "casketofverdantbones": {
+    "min": 4500,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Casket_of_Verdant_Bones",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "chalicelighthouselog": {
+    "min": 7425,
+    "max": 8100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chalice_Lighthouse_Log",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "chaliceoftheashencurse": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chalice_of_the_Ashen_Curse",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "chestofbones": {
+    "min": 9000,
+    "max": 9000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chest_of_Bones",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "chroniclesofthegildedfox": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chronicles_of_The_Gilded_Fox",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "chroniclesofthesapphiresteel": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chronicles_of_The_Sapphire_Steel",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "chroniclesoftheshadowcurrent": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chronicles_of_The_Shadow_Current",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "chroniclesofthewolfinwinter": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Chronicles_of_The_Wolf_in_Winter",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "classicpaintings": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Classic_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "cofferofagedgrog": {
+    "min": 100,
+    "max": 228,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Coffer_of_Aged_Grog",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "cofferofantiquatedcoffee": {
+    "min": 260,
+    "max": 455,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Coffer_of_Antiquated_Coffee",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "cofferofforgottenjewels": {
+    "min": 1100,
+    "max": 1855,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Coffer_of_Forgotten_Jewels",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "cofferoftimewornmetals": {
+    "min": 500,
+    "max": 910,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Coffer_of_Timeworn_Metals",
+    "checkedAt": "2026-11-10T16:18:53.945598+00:00",
+    "status": "source-infobox"
+  },
+  "cognacofdistanthorizons": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Cognac_of_Distant_Horizons",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "collectorspaintings": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "coraltreasurechest": {
+    "min": 375,
+    "max": 910,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Coral_Treasure_Chest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "cradleofvirtue": {
+    "min": 2215,
+    "max": 2235,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Cradle_of_Virtue",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofbrimstonerum": {
+    "min": 1970,
+    "max": 1990,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Brimstone_Rum",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofcuriousfishscales": {
+    "min": 1000,
+    "max": 1050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Curious_Fish_Scales",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofdarkdemiserum": {
+    "min": 9000,
+    "max": 9600,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Dark_Demise_Rum",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofdevilscloths": {
+    "min": 200,
+    "max": 1400,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Devil%27s_Cloth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofdevilsplants": {
+    "min": 200,
+    "max": 1400,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Devil%27s_Plants",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofdevilsrumbottles": {
+    "min": 200,
+    "max": 1400,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Devil%27s_Rum_Bottles",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofelegantcloth": {
+    "min": 1640,
+    "max": 1660,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Elegant_Cloth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofexoticplants": {
+    "min": 1640,
+    "max": 1660,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Exotic_Plants",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateoffirewovencloth": {
+    "min": 1970,
+    "max": 1990,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Fire-woven_Cloth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateoffloralfaterum": {
+    "min": 2000,
+    "max": 2600,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Floral_Fate_Rum",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofgoldengreedrum": {
+    "min": 13000,
+    "max": 13600,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Golden_Greed_Rum",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofkrakententacles": {
+    "min": 3000,
+    "max": 3100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Kraken_Tentacles",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofluxuriouscloth": {
+    "min": 100,
+    "max": 700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Luxurious_Cloth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofplants": {
+    "min": 100,
+    "max": 700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Plants",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofpreciouspearls": {
+    "min": 2000,
+    "max": 2050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Precious_Pearls",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofrumbottles": {
+    "min": 100,
+    "max": 700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Rum_Bottles",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofsearingplants": {
+    "min": 1970,
+    "max": 1990,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Searing_Plants",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofsharksteeth": {
+    "min": 1500,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Shark%27s_Teeth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crateofthefinestrum": {
+    "min": 1640,
+    "max": 1660,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_The_Finest_Rum",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crescentislegoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crescent_Isle_Gold_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crescentislestonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crescent_Isle_Stone_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crookshollowgoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crook%27s_Hollow_Gold_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "crookshollowstonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crook%27s_Hollow_Stone_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "devilsridgegoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Devil%27s_Ridge_Gold_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "devilsridgestonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Devil%27s_Ridge_Stone_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "elegantfishingfloatpack": {
+    "min": 260,
+    "max": 470,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Elegant_Fishing_Float_Pack",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "emeraldbreathofthesea": {
+    "min": 6000,
+    "max": 6000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Emerald_Breath_of_the_Sea",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "emeraldmermaidgem": {
+    "min": 1500,
+    "max": 1500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Emerald_Mermaid_Gem",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "emeraldsirengem": {
+    "min": 1500,
+    "max": 1500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Emerald_Siren_Gem",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "eminentmerchantmanifest": {
+    "min": 3000,
+    "max": 3000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Eminent_Merchant_Manifest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "enchantmentvessel": {
+    "min": 1948,
+    "max": 1960,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Enchantment_Vessel",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "esteemedmerchantmanifest": {
+    "min": 2200,
+    "max": 2200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Esteemed_Merchant_Manifest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "evileye": {
+    "min": 1952,
+    "max": 1960,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Evil_Eye",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "exquisitepaintings": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Exquisite_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "eyeofsouls": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Eye_of_Souls",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "finestfishhookpack": {
+    "min": 350,
+    "max": 750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Finest_Fish_Hook_Pack",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "firebombcrate": {
+    "min": 1150,
+    "max": 1950,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Firebomb_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "fishbones": {
+    "min": 10,
+    "max": 10,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Fish_Bones",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "floraofdistanthorizons": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Flora_of_Distant_Horizons",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "fruitcrate": {
+    "min": 600,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Fruit_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "generousgift": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Generous_Gift",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "glitteringhoardersreliquary": {
+    "min": 15000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Glittering_Hoarder%27s_Reliquary",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "goldtreasurevaultkeys": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Gold_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grailoftheashencurse": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grail_of_the_Ashen_Curse",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislyboartusk": {
+    "min": 1000,
+    "max": 1500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Boar_Tusk",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislymegalodonscale": {
+    "min": 500,
+    "max": 750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Megalodon_Scale",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislymegalodontooth": {
+    "min": 500,
+    "max": 750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Megalodon_Tooth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislyscaleofbarnacleddread": {
+    "min": 2000,
+    "max": 2250,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Scale_of_Barnacled_Dread",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislyscaleoffearedredmaw": {
+    "min": 2000,
+    "max": 2250,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Scale_of_Feared_Redmaw",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislytoothofbarnacleddread": {
+    "min": 2500,
+    "max": 3000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Tooth_of_Barnacled_Dread",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "grislytoothoffearedredmaw": {
+    "min": 2500,
+    "max": 3000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Grisly_Tooth_of_Feared_Redmaw",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "gunpowderbarrel": {
+    "min": 100,
+    "max": 187,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Gunpowder_Barrel",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "heartofnaturefireworkcrate": {
+    "min": 1000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Heart_of_Nature_Firework_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "hoardersreliquary": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Hoarder%27s_Reliquary",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "hornoffairwinds": {
+    "min": 1000,
+    "max": 1500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Horn_of_Fair_Winds",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "humblegift": {
+    "min": 2750,
+    "max": 2750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Humble_Gift",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "huntingspear": {
+    "min": 80,
+    "max": 100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Hunting_Spear",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "huntingspeartippack": {
+    "min": 500,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Hunting_Spear_Tip_Pack",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "huntingtributeofthebanished": {
+    "min": 2500,
+    "max": 2500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Hunting_Tribute_of_the_Banished",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "irresistiblebaitpack": {
+    "min": 100,
+    "max": 200,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Irresistible_Bait_Pack",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "keeperoftheashencurse": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Keeper_of_the_Ashen_Curse",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "krakeneye": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Kraken_Eye",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "krakensfallgoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Kraken%27s_Fall_Gold_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "krakensfallstonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Kraken%27s_Fall_Stone_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "mermaidshideawaygoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Mermaid%27s_Hideaway_Gold_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "mermaidshideawaystonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Mermaid%27s_Hideaway_Stone_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "moltensandskey": {
+    "min": 35000,
+    "max": 35000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Molten_Sands_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "monstrouskrakeneye": {
+    "min": 15000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Monstrous_Kraken_Eye",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "mutinouseffigy": {
+    "min": 1690,
+    "max": 1710,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Mutinous_Effigy",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "oathlighthouselog": {
+    "min": 7425,
+    "max": 8100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Oath_Lighthouse_Log",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "oceansplunderfireworkcrate": {
+    "min": 1000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ocean%27s_Plunder_Firework_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "oldboot": {
+    "min": 10,
+    "max": 10,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Old_Boot",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "oldhat": {
+    "min": 10,
+    "max": 10,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Old_Hat",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "oldskull": {
+    "min": 10,
+    "max": 10,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Old_Skull",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "orbofsecrets": {
+    "min": 20000,
+    "max": 20000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Orb_of_Secrets",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "orbofthebanished": {
+    "min": 50000,
+    "max": 50000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Orb_of_the_Banished",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "phantomgunpowderbarrel": {
+    "min": 0,
+    "max": 0,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Phantom_Gunpowder_Barrel",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pirateslifefireworkcrate": {
+    "min": 1000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pirate%27s_Life_Firework_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "platedsilverkey": {
+    "min": 1000,
+    "max": 1700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Plated_Silver_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristineboartusk": {
+    "min": 2000,
+    "max": 3000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Boar_Tusk",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristinemegalodonscale": {
+    "min": 1000,
+    "max": 1450,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Megalodon_Scale",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristinemegalodontooth": {
+    "min": 1000,
+    "max": 1500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Megalodon_Tooth",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristinescaleofbarnacleddread": {
+    "min": 4000,
+    "max": 4500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Scale_of_Barnacled_Dread",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristinescaleoffearedredmaw": {
+    "min": 4000,
+    "max": 4500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Scale_of_Feared_Redmaw",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristinetoothofbarnacleddread": {
+    "min": 5000,
+    "max": 6000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Tooth_of_Barnacled_Dread",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "pristinetoothoffearedredmaw": {
+    "min": 5000,
+    "max": 6000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Pristine_Tooth_of_Feared_Redmaw",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "prosperoushoardersreliquary": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Prosperous_Hoarder%27s_Reliquary",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "prosperousmerchantmanifest": {
+    "min": 1600,
+    "max": 1600,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Prosperous_Merchant_Manifest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "ragandbonecrates": {
+    "min": 2750,
+    "max": 2750,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Rag_and_Bone_Crates",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reaperdisciplesurn": {
+    "min": 4500,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Reaper_Disciple%27s_Urn",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reaperfollowersurn": {
+    "min": 4000,
+    "max": 4500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Reaper_Follower%27s_Urn",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reapermastersurn": {
+    "min": 5500,
+    "max": 6000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Reaper_Master%27s_Urn",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reaperservantsurn": {
+    "min": 5000,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Reaper_Servant%27s_Urn",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reapersbounty": {
+    "min": 15000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Reaper%27s_Bounty",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reaperschest": {
+    "min": 20,
+    "max": 20,
+    "currency": "doubloons",
+    "source": "https://seaofthieves.wiki.gg/wiki/Reaper%27s_Chest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "refinedpaintings": {
+    "min": 7500,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Refined_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "reveredmerchantmanifest": {
+    "min": 4000,
+    "max": 4000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Revered_Merchant_Manifest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "ritualskull": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ritual_Skull",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "rubybreathofthesea": {
+    "min": 8000,
+    "max": 8000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ruby_Breath_of_the_Sea",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "rubymermaidgem": {
+    "min": 2000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ruby_Mermaid_Gem",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "rubysirengem": {
+    "min": 2000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ruby_Siren_Gem",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "sanctuaryofthebanishedkey": {
+    "min": 2325,
+    "max": 2325,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Sanctuary_of_the_Banished_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "sapphirebreathofthesea": {
+    "min": 4000,
+    "max": 4000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Sapphire_Breath_of_the_Sea",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "sapphiremermaidgem": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Sapphire_Mermaid_Gem",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "sapphiresirengem": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Sapphire_Siren_Gem",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "scrollsofchartedwaters": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Scrolls_of_Charted_Waters",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "scrollsofshroudedwaters": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Scrolls_of_Shrouded_Waters",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "scrollsofundiscoveredwaters": {
+    "min": 15000,
+    "max": 15000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Scrolls_of_Undiscovered_Waters",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "seaofthedamnedfireworkcrate": {
+    "min": 1000,
+    "max": 2000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Sea_of_the_Damned_Firework_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "silksofdistanthorizons": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Silks_of_Distant_Horizons",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "silvertreasurevaultkeys": {
+    "min": 2300,
+    "max": 2400,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Silver_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "skeletonchest": {
+    "min": 250,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Skeleton_Chest",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "skullofthebanished": {
+    "min": 12500,
+    "max": 12500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Skull_of_the_Banished",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "sterlingsilverkey": {
+    "min": 1000,
+    "max": 1700,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Sterling_Silver_Key",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "stonetreasurevaultkeys": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Stone_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "stool": {
+    "min": 81,
+    "max": 81,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Stool",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "storagecrate": {
+    "min": 250,
+    "max": 250,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Storage_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "storagecrateofthedamned": {
+    "min": 900,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Storage_Crate_of_the_Damned",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "strongholdgunpowderbarrel": {
+    "min": 2750,
+    "max": 5622,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Stronghold_Gunpowder_Barrel",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "treasurechestcontainer": {
+    "min": 250,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chest_(container)",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "tridentofdarktides": {
+    "min": 250,
+    "max": 250,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trident_of_Dark_Tides",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "tridentofthebanished": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Trident_of_the_Banished",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "veiledeyeofsouls": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Veiled_Eye_of_Souls",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "vestigeofpower": {
+    "min": 1655,
+    "max": 1675,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Vestige_of_Power",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "woodcrate": {
+    "min": 600,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Wood_Crate",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "wretchedkrakeneye": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Wretched_Kraken_Eye",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "source-infobox"
+  },
+  "ashenreachesgoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Gold_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Gold Treasure Vault Keys family."
+  },
+  "ashenreachesstonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Stone_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Stone Treasure Vault Keys family."
+  },
+  "classicdivingtothedepths": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Classic_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "classicsecretinthesands": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Classic_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "classicshotsfired": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Classic_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "classicstrikingitrich": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Classic_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "classicthehuntersspoils": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Classic_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorscrewofbones": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorsdiggingforvictory": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorsfearlessandferocious": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorsfuryoftheforsaken": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorsgalleonofghouls": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorskingoftheseas": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorspiratesforalleternity": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorssailingforfreedom": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "collectorsscourgeoftheseas": {
+    "min": 2750,
+    "max": 175000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Collector%27s_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "exquisiteamaraudersmemories": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Exquisite_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "exquisitethepriceofgold": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Exquisite_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "exquisitethequeenofsorrow": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Exquisite_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "exquisitetravellingcompanion": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Exquisite_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "exquisiteunbrokensecrets": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Exquisite_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "fetchersrestgoldkey": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Gold_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Gold Treasure Vault Keys family."
+  },
+  "fetchersreststonekey": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Stone_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Stone Treasure Vault Keys family."
+  },
+  "n13vaultgoldtotem": {
+    "min": 3600,
+    "max": 4050,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Gold_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Gold Treasure Vault Keys family."
+  },
+  "n13vaultstonetotem": {
+    "min": 1200,
+    "max": 1550,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Stone_Treasure_Vault_Keys",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Stone Treasure Vault Keys family."
+  },
+  "refinedfortoftheconqueringcrown": {
+    "min": 7500,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Refined_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "refinedgloriousbeginnings": {
+    "min": 7500,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Refined_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "refinedgonefishin": {
+    "min": 7500,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Refined_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "refinedmaelstromofposeidon": {
+    "min": 7500,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Refined_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "refinedunwillingpassenger": {
+    "min": 7500,
+    "max": 7500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Refined_Paintings",
+    "checkedAt": "2026-11-10T16:33:51.507636+00:00",
+    "status": "documented-family",
+    "note": "Category-level sale range. Specific artwork and sale conditions can affect value."
+  },
+  "shipwreckedcaptainschest": {
+    "min": 560,
+    "max": 1100,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678710+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Captain's Chest family."
+  },
+  "shipwreckedcastawayschest": {
+    "min": 60,
+    "max": 130,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678638+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Castaway's Chest family."
+  },
+  "shipwreckedmarauderschest": {
+    "min": 280,
+    "max": 520,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678703+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Marauder's Chest family."
+  },
+  "shipwreckedseafarerschest": {
+    "min": 140,
+    "max": 260,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Treasure_Chests",
+    "checkedAt": "2026-11-10T16:11:12.678695+00:00",
+    "status": "documented-family",
+    "note": "Value shared with the documented Seafarer's Chest family."
+  },
+  "ashentomes": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart"
+  },
+  "crateofbrokenstone": {
+    "min": 530,
+    "max": 543,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Broken_Stone",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 530,
+        "max": 543,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 105,
+        "max": 105,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 800,
+        "max": 800,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofrawsugar": {
+    "min": 400,
+    "max": 410,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Raw_Sugar",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 400,
+        "max": 410,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 80,
+        "max": 80,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 600,
+        "max": 600,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofunclassifiedgemstones": {
+    "min": 600,
+    "max": 610,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unclassified_Gemstones",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 600,
+        "max": 610,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 120,
+        "max": 120,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 900,
+        "max": 900,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofunfilteredminerals": {
+    "min": 560,
+    "max": 577,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unfiltered_Minerals",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 560,
+        "max": 577,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 110,
+        "max": 110,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 850,
+        "max": 850,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofungradedtea": {
+    "min": 430,
+    "max": 443,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Ungraded_Tea",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 430,
+        "max": 443,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 85,
+        "max": 85,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 650,
+        "max": 650,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofunpreparedingredients": {
+    "min": 475,
+    "max": 493,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unprepared_Ingredients",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 475,
+        "max": 493,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 95,
+        "max": 99,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 710,
+        "max": 740,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofunrefinedspices": {
+    "min": 500,
+    "max": 510,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unrefined_Spices",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 500,
+        "max": 510,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 100,
+        "max": 100,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 750,
+        "max": 750,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "crateofunsortedsilks": {
+    "min": 460,
+    "max": 477,
+    "currency": "gold",
+    "condition": "Normal",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unsorted_Silks",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "variants": [
+      {
+        "min": 460,
+        "max": 477,
+        "currency": "gold",
+        "condition": "Normal"
+      },
+      {
+        "min": 90,
+        "max": 90,
+        "currency": "gold",
+        "condition": "Surplus"
+      },
+      {
+        "min": 700,
+        "max": 700,
+        "currency": "gold",
+        "condition": "Sought-after"
+      }
+    ],
+    "note": "Normal demand shown. Surplus and sought-after payouts differ by outpost; inspect the condition table below."
+  },
+  "tomeofcursesi": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofcursesii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofcursesiii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofcursesiv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofcursesv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeoffirei": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeoffireii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeoffireiii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeoffireiv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeoffirev": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofpoweri": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofpowerii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofpoweriii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofpoweriv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofpowerv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofresurrectioni": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofresurrectionii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofresurrectioniii": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofresurrectioniv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "tomeofresurrectionv": {
+    "min": 5500,
+    "max": 5500,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Ashen_Tomes",
+    "checkedAt": "2026-11-10",
+    "status": "source-selling-chart",
+    "note": "All Ashen Tomes share this documented selling-chart value."
+  },
+  "bilgeratsdoublooncrate": {
+    "min": 18000,
+    "max": 18000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Bilge_Rats_Doubloon_Crate",
+    "checkedAt": "2026-11-10",
+    "status": "alternative-currency",
+    "note": "Alternative sale currencies, not cumulative. The main price and haul use the gold option; the table below shows both. Emissary eligibility depends on the buyer.",
+    "variants": [
+      {
+        "min": 18000,
+        "max": 18000,
+        "currency": "gold",
+        "condition": "Gold option"
+      },
+      {
+        "min": 200,
+        "max": 200,
+        "currency": "doubloons",
+        "condition": "Doubloon option"
+      }
+    ]
+  },
+  "crateofcruderepairmaterials": {
+    "min": 507,
+    "max": 527,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Crude_Repair_Materials",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "note": "Normal-demand value only. Surplus and sought-after prices are unconfirmed in the source."
+  },
+  "crateofunprocessedgunpowder": {
+    "min": 573,
+    "max": 593,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unprocessed_Gunpowder",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "note": "Normal-demand value only. Surplus and sought-after prices are unconfirmed in the source."
+  },
+  "crateofunwroughtmunitions": {
+    "min": 541,
+    "max": 560,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Crate_of_Unwrought_Munitions",
+    "checkedAt": "2026-11-10",
+    "status": "condition-specific",
+    "note": "Normal-demand value only. Surplus and sought-after prices are unconfirmed in the source."
+  },
+  "secretshipmentcrate": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "gold",
+    "source": "https://seaofthieves.wiki.gg/wiki/Secret_Shipment_Crate",
+    "checkedAt": "2026-11-10",
+    "status": "alternative-currency",
+    "note": "Alternative sale currencies, not cumulative. The main price and haul use the gold option; the table below shows both. Emissary eligibility depends on the buyer.",
+    "variants": [
+      {
+        "min": 10000,
+        "max": 10000,
+        "currency": "gold",
+        "condition": "Gold option"
+      },
+      {
+        "min": 25,
+        "max": 25,
+        "currency": "doubloons",
+        "condition": "Doubloon option"
+      }
+    ]
+  }
+}

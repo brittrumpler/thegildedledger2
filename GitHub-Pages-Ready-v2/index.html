@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071c21"><meta name="description" content="A pirate’s field guide to Sea of Thieves treasure, emissary payouts, world event loot and Gold Rush hours.">
+<title>The Gilded Ledger · Sea of Thieves Field Guide</title>
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the ledger</a>
+<div class="chart-lines" aria-hidden="true"></div>
+<header class="masthead"><a class="brand" href="#treasure"><img src="assets/mark.svg" alt="" width="47" height="47"><span>THE GILDED LEDGER<small>A SEA OF THIEVES FIELD GUIDE</small></span></a><span class="masthead-note">For those who sail for more.</span><button class="quiet" id="sources-button">Sources &amp; ship’s notes ↗</button></header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span></span> KNOW YOUR LOOT. CHOOSE YOUR HORIZON.</p><h1 id="hero-title">Every treasure<br>has its <em>price.</em></h1><p class="hero-description">A little knowledge. A heavier coin purse.<br>Your guide to the spoils, storms, and opportunities<br class="desktop"> waiting beyond the next wave.</p><div class="hero-actions"><a class="gold-button" href="#treasure">Open the treasure ledger <span>→</span></a><a class="text-link" href="#world-events">Scout world events ↗</a></div></div>
+<div class="hero-art" aria-hidden="true"><div class="compass"><span class="north">N</span><span class="south">S</span><span class="east">E</span><span class="west">W</span></div><div class="rays"></div><img id="hero-chest" alt="" src="assets/hero-chest.png"><span class="artifact-label">FIG. 001 — THE CHEST OF FORTUNE</span><span class="hero-value">20,000 <small>BASE GOLD</small></span></div>
+</section>
+<section class="rush-strip" aria-label="Gold Rush status"><div class="rush-symbol">◷</div><div><span class="eyebrow">THE TIDE OF FORTUNE</span><p id="rush-title">Finding the next Gold Rush…</p></div><span class="rush-multiplier">1.5× <small>GOLD</small></span><a href="#calendar" id="rush-countdown">View the event calendar →</a></section>
+<nav class="tabs" aria-label="Field guide"><a href="#treasure" data-tab="treasure">▣ <span>Treasure ledger</span></a><a href="#world-events" data-tab="world-events">⚑ <span>World events</span></a><a href="#calendar" data-tab="calendar">◷ <span>Events calendar</span></a><a href="#haul" data-tab="haul">♧ <span>My haul</span> <b id="haul-count">0</b></a></nav>
+<section id="treasure" class="page-panel" aria-labelledby="ledger-title"><div class="section-heading"><div><p class="eyebrow">THE QUARTERMASTER’S INVENTORY</p><h2 id="ledger-title">The treasure ledger</h2></div><p id="coverage" class="meta">Loading the inventory…</p></div>
+<div class="filters"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search chests, skulls, gems & more…" aria-label="Search treasure"><kbd>/</kbd></label><label>Trading company<select id="company"><option value="">All companies</option></select></label><label>Category<select id="category"><option value="">All treasure</option></select></label><label>Emissary grade<select id="grade"><option value="1">I · Base value</option><option value="2">II · 1.33×</option><option value="3">III · 1.67×</option><option value="4">IV · 2×</option><option value="5">V · 2.5×</option></select></label></div>
+<div class="ledger-toolbar"><div class="filter-pills" id="quick-filters"><button class="active" data-quick="all">All discoveries</button><button data-quick="priced">Known values</button><button data-quick="favorites">☆ Bookmarked</button><button data-quick="unpriced">Needs research</button></div><label class="sort">Sort by <select id="sort" aria-label="Sort treasure"><option value="featured">Notable finds</option><option value="name">Name A–Z</option><option value="high">Highest value</option><option value="low">Lowest value</option></select></label></div>
+<p class="fine-print" id="value-note">High Seas base values. Grades apply to an eligible matching company or Reaper sale. Open an item for all five grades.</p><p id="results-status" class="sr-only" aria-live="polite"></p><div class="treasure-grid" id="treasure-grid"></div><div class="load-more"><button id="load-more" class="outline-button">Unroll more of the ledger ↓</button></div></section>
+<section id="world-events" class="page-panel" hidden aria-labelledby="events-title"><div class="section-heading"><div><p class="eyebrow">A SIGN ON THE HORIZON</p><h2 id="events-title">Fortune favours the bold.</h2></div><p class="meta">8 encounters · source-reported loot pools</p></div><p class="intro">Read the sky before you raise the anchor. Open an encounter to inspect its expected treasure, drop evidence and possible bonus loot.</p><div class="notice">Season 21 · A Chest of Fortune can be a bonus at all eight encounters. One or three may appear; none is guaranteed. <a href="https://www.seaofthieves.com/release-notes/3.9.0" target="_blank" rel="noopener">Official rules ↗</a></div><div id="event-grid" class="event-grid"></div></section>
+<section id="calendar" class="page-panel" hidden aria-labelledby="calendar-title"><div class="section-heading"><div><p class="eyebrow">MAKE EVERY HOUR A GOLDEN ONE</p><h2 id="calendar-title">The captain’s calendar</h2></div><label class="timezone-label">Show times in<select id="timezone" aria-label="Calendar time zone"></select></label></div><div id="calendar-content"></div></section>
+<section id="haul" class="page-panel" hidden aria-labelledby="haul-title"><div class="section-heading"><div><p class="eyebrow">WHAT’S ABOARD</p><h2 id="haul-title">Count your spoils.</h2></div><button class="quiet" id="clear-haul">Clear haul</button></div><p class="intro">Your manifest stays on this device. Totals use base value; select an item to inspect emissary payouts. Unknown values are excluded.</p><div id="haul-content"></div></section>
+</main>
+<footer><img src="assets/mark.svg" alt="" width="32" height="32"><div><span>THE GILDED LEDGER</span><p>An unofficial, noncommercial fan project. Sea of Thieves © Microsoft / Rare.</p><p>Loot &amp; images: <a href="https://sotdb.gg/loot/" target="_blank" rel="noopener">SoTDB / PhuzzyBond</a> · Value research: <a href="https://seaofthieves.wiki.gg/wiki/Treasure" target="_blank" rel="noopener">Sea of Thieves Wiki</a> · <button class="inline-button" id="footer-sources">Data &amp; credits</button></p></div><span class="footer-motto">May your hold be full.<br>And your horizon clear.</span></footer>
+<dialog id="detail-dialog"><button class="close-dialog" aria-label="Close details">×</button><div id="detail-content"></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+
+
+
+
+<!-- BUNDLED SCRIPTS -->
+<script defer src="assets/image-packs/pack-01.js"></script>
+<script defer src="assets/image-packs/pack-02.js"></script>
+<script defer src="assets/image-packs/pack-03.js"></script>
+<script defer src="assets/image-packs/pack-04.js"></script>
+<script defer src="assets/image-packs/pack-05.js"></script>
+<script defer src="assets/image-packs/pack-06.js"></script>
+<script defer src="data/catalog.js"></script>
+<script defer src="data/calendar.js"></script>
+<script defer src="app.bundle.js"></script>
+<!-- END BUNDLED SCRIPTS -->
+</body></html>
