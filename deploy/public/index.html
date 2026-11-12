@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071c21"><meta name="description" content="A pirate’s field guide to Sea of Thieves treasure, emissary payouts, world event loot and Gold Rush hours.">
+<title>The Gilded Ledger · Sea of Thieves Field Guide</title>
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the ledger</a>
+<div class="chart-lines" aria-hidden="true"></div>
+<header class="masthead"><a class="brand" href="#treasure"><img src="assets/mark.svg" alt="" width="47" height="47"><span>THE GILDED LEDGER<small>A SEA OF THIEVES FIELD GUIDE</small></span></a><button class="quiet" id="sources-button">Sources &amp; credits</button></header>
+<nav class="tabs" aria-label="Main navigation">
+  <a href="#treasure" data-tab="treasure"><span aria-hidden="true">▣</span> Treasure</a>
+  <a href="#cosmetics" data-tab="cosmetics"><span aria-hidden="true">◇</span> Cosmetics</a>
+  <a href="#world-events" data-tab="world-events"><span aria-hidden="true">⚑</span> World events</a>
+  <a href="#calendar" data-tab="calendar"><span aria-hidden="true">◷</span> Calendar</a>
+  <a href="#commendations" data-tab="commendations"><span aria-hidden="true">✧</span> Commendations</a>
+  <a href="#pirate" data-tab="pirate"><span aria-hidden="true">♙</span> My pirate</a>
+  <a href="#haul" data-tab="haul"><span aria-hidden="true">♧</span> My haul <b id="haul-count">0</b></a>
+</nav>
+<main id="main" tabindex="-1">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <h1 id="hero-title">The Gilded Ledger</h1>
+    <p class="hero-description">Find what your loot is worth, where to earn it, and what to collect next.</p>
+    <div class="currency-key" aria-label="Currency key">
+      <span><img src="assets/currency/gold.png" alt="" width="20" height="20"> Gold</span>
+      <span><img src="assets/currency/doubloons.png" alt="" width="20" height="20"> Doubloons</span>
+      <span><img src="assets/currency/ancient-coins.png" alt="" width="20" height="20"> Ancient Coins</span>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="compass"><span class="north">N</span><span class="south">S</span><span class="east">E</span><span class="west">W</span></div>
+    <div class="rays"></div>
+    <img id="hero-chest" alt="" src="assets/hero-chest.png">
+  </div>
+</section>
+<section class="rush-strip" aria-label="Gold Rush status"><div class="rush-symbol">◷</div><div><p id="rush-title">Finding the next Gold Rush…</p></div><span class="rush-multiplier">1.5× <img class="currency-icon" src="assets/currency/gold.png" alt="Gold" title="Gold" width="20" height="20"></span><a href="#calendar" id="rush-countdown">View the event calendar →</a></section>
+
+<section id="treasure" class="page-panel" aria-labelledby="ledger-title"><div class="section-heading"><div><h2 id="ledger-title" tabindex="-1">Treasure ledger</h2></div><p id="coverage" class="meta">Loading the inventory…</p></div>
+<div class="filters"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search chests, skulls, gems & more…" aria-label="Search treasure"><kbd>/</kbd></label><label>Trading company<select id="company"><option value="">All companies</option></select></label><label>Category<select id="category"><option value="">All treasure</option></select></label><label>Emissary grade<select id="grade"><option value="1">I · Base value</option><option value="2">II · 1.33×</option><option value="3">III · 1.67×</option><option value="4">IV · 2×</option><option value="5">V · 2.5×</option></select></label></div>
+<div class="ledger-toolbar"><div class="filter-pills" id="quick-filters"><button class="active" data-quick="all">All treasure</button><button data-quick="priced">With prices</button><button data-quick="favorites">☆ Bookmarked</button><button data-quick="unpriced">Price unknown</button></div><label class="sort">Sort by <select id="sort" aria-label="Sort treasure"><option value="featured">Notable finds</option><option value="name">Name A–Z</option><option value="high">Highest value</option><option value="low">Lowest value</option></select></label><button type="button" class="quiet reset-filters" id="clear-treasure-filters">Reset filters</button></div>
+<p class="fine-print" id="value-note">High Seas base values. Grades apply to an eligible matching company or Reaper sale. Open an item for all five grades.</p><p id="results-status" class="fine-print" aria-live="polite"></p><div class="treasure-grid" id="treasure-grid"></div><div class="load-more"><button id="load-more" class="outline-button">Show more treasure</button></div></section>
+<section id="world-events" class="page-panel" hidden aria-labelledby="events-title"><div class="section-heading"><div><h2 id="events-title" tabindex="-1">World events</h2></div><p class="meta">8 encounters · source-reported loot pools</p></div><p class="intro">Choose an encounter to see possible loot and how to find it.</p><div class="notice">Season 21 · A Chest of Fortune can be a bonus at all eight encounters. One or three may appear; none is guaranteed. <a href="https://www.seaofthieves.com/release-notes/3.9.0" target="_blank" rel="noopener">Official rules ↗</a></div><div id="event-grid" class="event-grid"></div></section>
+<section id="calendar" class="page-panel" hidden aria-labelledby="calendar-title"><div class="section-heading"><div><h2 id="calendar-title" tabindex="-1">Events calendar</h2></div><label class="timezone-label">Show times in<select id="timezone" aria-label="Calendar time zone"></select></label></div><div id="calendar-content"></div></section>
+<section id="haul" class="page-panel" hidden aria-labelledby="haul-title"><div class="section-heading"><div><h2 id="haul-title" tabindex="-1">My haul</h2></div><button class="quiet" id="clear-haul">Clear haul</button></div><p class="intro">Your manifest stays on this device. Totals use base value; select an item to inspect emissary payouts. Unknown values are excluded.</p><div id="haul-content"></div></section>
+
+<section id="cosmetics" class="page-panel" hidden aria-labelledby="cosmetics-title"><div class="section-heading"><div><h2 id="cosmetics-title" tabindex="-1">Cosmetic chest</h2></div><p id="cosmetic-coverage" class="meta"></p></div><p class="intro">Search clothing, equipment, weapons, ship cosmetics and pets. Open an item to see its price source and unlock requirements.</p><div class="journal-filters"><label class="search"><span>⌕</span><input id="cosmetic-search" type="search" placeholder="Find a jacket, cannon, cutlass or set…" aria-label="Search cosmetics"></label><label>Collection<select id="cosmetic-category"><option value="">All collections</option></select></label><label>My collection<select id="cosmetic-status"><option value="">All entries</option><option value="owned">Owned</option><option value="not-owned">Not owned</option><option value="unknown">Not yet imported</option><option value="goals">Wish list</option></select></label></div><div class="directory-toolbar"><button id="cosmetic-back" class="outline-button" hidden>← All collections</button><h3 id="cosmetic-scope" tabindex="-1"></h3></div><div id="cosmetic-directory"></div><p id="cosmetic-results" class="fine-print" aria-live="polite"></p><div id="cosmetic-grid" class="treasure-grid"></div><div class="load-more"><button id="cosmetic-more" class="outline-button">Show more cosmetics</button></div></section>
+<section id="commendations" class="page-panel" hidden aria-labelledby="commendations-title"><div class="section-heading"><div><h2 id="commendations-title" tabindex="-1">Commendations</h2></div><p id="commendation-coverage" class="meta"></p></div><p class="intro">See what to do, the grades to reach, and the cosmetic rewards each commendation unlocks. Imported progress and manual notes are labeled separately.</p><div class="journal-filters"><label class="search"><span>⌕</span><input id="commendation-search" type="search" placeholder="Search a deed, reward or requirement…" aria-label="Search commendations"></label><label>Chapter<select id="commendation-company"><option value="">All chapters</option></select></label><label>My progress<select id="commendation-status"><option value="">All entries</option><option value="completed">Completed</option><option value="incomplete">Still to complete</option><option value="unknown">Not yet imported</option><option value="goals">Pinned goals</option></select></label></div><div class="directory-toolbar"><button id="commendation-back" class="outline-button" hidden>← All chapters</button><h3 id="commendation-scope" tabindex="-1"></h3></div><div id="commendation-directory"></div><p id="commendation-results" class="fine-print" aria-live="polite"></p><div id="commendation-grid" class="commendation-grid"></div><div class="load-more"><button id="commendation-more" class="outline-button">Turn the next page ↓</button></div></section>
+<section id="pirate" class="page-panel" hidden aria-labelledby="pirate-title"><div class="section-heading"><div><h2 id="pirate-title" tabindex="-1">My pirate</h2></div><span class="meta">Your saved progress and collection</span></div><div id="pirate-content"></div><input id="profile-file" type="file" accept="application/json,.json" hidden aria-label="Import Sea of Thieves profile JSON"></section>
+
+</main>
+<footer><img src="assets/mark.svg" alt="" width="32" height="32"><div><span>THE GILDED LEDGER</span><p>An unofficial, noncommercial fan project. Sea of Thieves © Microsoft / Rare.</p><p>Loot &amp; images: <a href="https://sotdb.gg/loot/" target="_blank" rel="noopener">SoTDB / PhuzzyBond</a> · Value research: <a href="https://seaofthieves.wiki.gg/wiki/Treasure" target="_blank" rel="noopener">Sea of Thieves Wiki</a> · <button class="inline-button" id="footer-sources">Data &amp; credits</button> · <a href="privacy.html">Privacy</a></p></div></footer>
+<dialog id="detail-dialog" aria-labelledby="detail-title"><button class="close-dialog" aria-label="Close details">×</button><div id="detail-content"></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BUNDLED SCRIPTS -->
+<script defer src="assets/image-packs/pack-01.js"></script>
+<script defer src="assets/image-packs/pack-02.js"></script>
+<script defer src="assets/image-packs/pack-03.js"></script>
+<script defer src="assets/image-packs/pack-04.js"></script>
+<script defer src="assets/image-packs/pack-05.js"></script>
+<script defer src="assets/image-packs/pack-06.js"></script>
+<script defer src="data/catalog.js"></script>
+<script defer src="data/calendar.js"></script>
+<script defer src="data/acquisition.js"></script>
+<script defer src="data/featured-guides.js"></script>
+<script defer src="data/profile-exporter.js"></script>
+<script defer src="data/journal-00.js"></script>
+<script defer src="app.bundle.js"></script>
+<!-- END BUNDLED SCRIPTS -->
+</body></html>
