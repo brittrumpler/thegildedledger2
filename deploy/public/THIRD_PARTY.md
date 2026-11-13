@@ -48,3 +48,5 @@ Gold, Doubloon and Ancient Coin icons are Sea of Thieves artwork by Microsoft / 
 ## Sea chart
 
 Island names, regions, grid references, thumbnail links, wildlife and fish listings in `data/atlas.json` are drawn from the [Sea of Thieves Wiki location index](https://seaofthieves.wiki.gg/wiki/Locations) and the individual location guides. Tall Tale stops are summarized from the [wiki's Tales index](https://seaofthieves.wiki.gg/wiki/Tales), its island guides and the linked Rare Thief walkthroughs. Map-table artwork and marker positions are sourced from the [Rare Thief interactive map](https://maps.seaofthieves.rarethief.com/). The chart image combines four tiles, retaining the original watermark. Sea of Thieves game artwork belongs to Microsoft / Rare. Wiki-derived material follows the attribution terms above.
+
+Tall Tale pin coordinates, item and journal names, and guide links in `data/atlas-tales.json` come from [Rare Thief’s interactive map](https://maps.seaofthieves.rarethief.com/). Pins use the same projection as the chart. Multiple nearby stops are grouped in the interface.

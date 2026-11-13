@@ -117,3 +117,24 @@
   .atlas-filters .search { grid-column: 1 / -1; }
   .atlas-toolbar { flex-wrap: wrap; }
 }
+
+.atlas-tale-pin {
+  position: absolute;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 3px;
+  border: 1px solid #f4d5a0;
+  border-radius: 50%;
+  background: #743820;
+  color: #fff1c7;
+  font: 700 12px/1 var(--sans);
+  box-shadow: 0 1px 3px #261605;
+  cursor: pointer;
+}
+.atlas-tale-pin.journal { background: #294941; border-radius: 4px; }
+.atlas-tale-pin.group { background: #3c3027; }
+.atlas-tale-pin:is(:hover, :focus-visible) { z-index: 5; outline: 2px solid #fff1c7; }

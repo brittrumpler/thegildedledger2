@@ -4,6 +4,7 @@ const viewport = $('atlas-viewport');
 const chart = $('atlas-chart');
 const pins = $('atlas-pins');
 const list = $('atlas-list');
+const talePins = $('atlas-tale-pins');
 const filters = ['atlas-search', 'atlas-region', 'atlas-type', 'atlas-tale'];
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
@@ -11,7 +12,7 @@ const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({
 const safeSource = value => {
   try {
     const url = new URL(value);
-    return ['https://seaofthieves.wiki.gg','https://rarethief.com','https://www.seaofthieves.com'].includes(url.origin) ? escape(url.href) : '';
+    return ['https://seaofthieves.wiki.gg','https://rarethief.com','https://maps.seaofthieves.rarethief.com','https://www.seaofthieves.com'].includes(url.origin) ? escape(url.href) : '';
   } catch {
     return '';
   }
@@ -23,6 +24,9 @@ let locations;
 let load;
 let selected;
 let zoom = 1;
+let taleMarkers = [];
+let visiblePlaces = new Set();
+let markerGroups = [];
 
 function coordinates(location) {
   if (location.chart) return location.chart;
@@ -54,6 +58,58 @@ function layoutLabels() {
   }
 }
 
+function renderTalePins() {
+  const title = $('atlas-tale').value;
+  const size = chart.offsetWidth;
+  const hint = $('atlas-tale-hint');
+  if (taleMarkers.length && title) {
+    hint.textContent = taleMarkers.some(marker => marker.title === title)
+      ? 'Zoom in for steps (◆) and journals (J). Numbered pins open nearby stops.'
+      : 'This Tale has island guides in the list. Detailed pin coordinates are unavailable.';
+  } else if (taleMarkers.length) {
+    hint.textContent = 'Zoom in for steps (◆) and journals (J). Use the Tall Tale filter to follow one story.';
+  }
+  markerGroups = [];
+  if (zoom >= 2.7 && size) {
+    for (const marker of taleMarkers) {
+      if (title && marker.title !== title) continue;
+      if (marker.place ? !visiblePlaces.has(marker.place) :
+        ['atlas-search', 'atlas-region', 'atlas-type'].some(id => $(id).value)) continue;
+      const [x, y] = marker.point;
+      const nearby = markerGroups.find(group =>
+        Math.hypot(group.x - x, group.y - y) * size < 25
+      );
+      if (nearby) nearby.markers.push(marker);
+      else markerGroups.push({ x, y, markers: [marker] });
+    }
+  }
+  talePins.innerHTML = markerGroups.map(({ x, y, markers }, index) => {
+    const first = markers[0];
+    const multiple = markers.length > 1;
+    const label = multiple ? `${markers.length} Tall Tale stops near ${first.island}` :
+      `${first.kind}: ${first.name} — ${first.title}`;
+    return `<button type="button" class="atlas-tale-pin ${multiple ? 'group' : first.kind.toLowerCase()}"
+      style="left:${x * 100}%;top:${y * 100}%" data-tale-pin="${index}"
+      aria-label="${escape(label)}" title="${escape(label)}">${multiple ? markers.length : first.kind === 'Journal' ? 'J' : '◆'}</button>`;
+  }).join('');
+}
+
+function showTaleMarkers(markers) {
+  const detail = $('atlas-detail');
+  const single = markers.length === 1;
+  detail.innerHTML = `<h3 tabindex="-1">${escape(single ? markers[0].name : markers[0].island + ' · Tall Tale stops')}</h3>
+    <ul class="atlas-tales">${markers.map(marker => `<li>
+      <span>${escape(marker.kind)} · ${escape(marker.title)}</span>
+      ${single ? '' : `<strong>${escape(marker.name)}</strong>`}
+      <p>${escape(marker.island)}</p>
+      <a href="${safeSource(marker.source)}" target="_blank" rel="noopener">Open walkthrough ↗</a>
+    </li>`).join('')}</ul>`;
+  detail.scrollTop = 0;
+  const heading = detail.querySelector('h3');
+  heading.focus({ preventScroll: true });
+  heading.scrollIntoView({ block: 'nearest' });
+}
+
 function setZoom(level, center = false) {
   const x = center ? .5 : (viewport.scrollLeft + viewport.clientWidth / 2) / (chart.offsetWidth || 1);
   const y = center ? .5 : (viewport.scrollTop + viewport.clientHeight / 2) / (chart.offsetHeight || 1);
@@ -62,7 +118,8 @@ function setZoom(level, center = false) {
   viewport.scrollLeft = chart.offsetWidth * x - viewport.clientWidth / 2;
   viewport.scrollTop = chart.offsetHeight * y - viewport.clientHeight / 2;
   $('atlas-out').disabled = zoom <= 1;
-  $('atlas-in').disabled = zoom >= 3.8;
+  $('atlas-in').disabled = zoom >= 8;
+  renderTalePins();
   layoutLabels();
 }
 
@@ -123,11 +180,14 @@ function render() {
   const region = $('atlas-region').value;
   const group = $('atlas-type').value;
   const tale = $('atlas-tale').value;
+  const markerPlaces = new Set(taleMarkers.filter(marker => marker.title === tale).map(marker => marker.place));
   const visible = locations.filter(place =>
     (!query || normalized(place.name).includes(query) || normalized(place.grid).includes(query)) &&
     (!region || place.region === region) && (!group || place.group === group) &&
-    (!tale || place.tales.some(entry => entry.title === tale))
+    (!tale || place.tales.some(entry => entry.title === tale) || markerPlaces.has(place.id))
   );
+  visiblePlaces = new Set(visible.map(place => place.id));
+  renderTalePins();
   if (!visible.some(place => place.id === selected)) selected = visible.length === 1 ? visible[0].id : '';
   pins.innerHTML = visible.map(place => {
     const point = coordinates(place);
@@ -159,6 +219,11 @@ function select(placeId, center) {
 }
 
 map.addEventListener('click', event => {
+  const talePin = event.target.closest('[data-tale-pin]');
+  if (talePin) {
+    showTaleMarkers(markerGroups[Number(talePin.dataset.talePin)].markers);
+    return;
+  }
   const button = event.target.closest('[data-place]');
   if (!button) return;
   select(button.dataset.place, list.contains(button));
@@ -170,7 +235,7 @@ map.addEventListener('click', event => {
 });
 for (const id of filters) $(id).addEventListener(id === 'atlas-search' ? 'input' : 'change', () => locations && render());
 $('atlas-out').addEventListener('click', () => setZoom(Math.max(1, zoom / 1.4)));
-$('atlas-in').addEventListener('click', () => setZoom(Math.min(3.8, zoom * 1.4)));
+$('atlas-in').addEventListener('click', () => setZoom(Math.min(8, zoom * 1.4)));
 $('atlas-reset').addEventListener('click', () => setZoom(1, true));
 
 let drag;
@@ -208,6 +273,21 @@ async function openMap() {
     setupOptions('atlas-tale', locations.flatMap(place => place.tales.map(tale => tale.title)));
     render();
     requestAnimationFrame(() => setZoom(1, true));
+    fetch('data/atlas-tales.json').then(response => {
+      if (!response.ok) throw new Error('Tall Tale pins unavailable');
+      return response.json();
+    }).then(markers => {
+      taleMarkers = markers;
+      const menu = $('atlas-tale');
+      const current = menu.value;
+      const titles = [...menu.options].slice(1).map(option => option.value);
+      menu.length = 1;
+      setupOptions('atlas-tale', [...titles, ...markers.map(marker => marker.title)]);
+      menu.value = current;
+      render();
+    }).catch(() => {
+      $('atlas-tale-hint').textContent = 'Tall Tale pins could not load. Refresh to try again.';
+    });
   }).catch(() => {
     load = undefined;
     $('atlas-count').textContent = 'The location guide could not load. Switch tabs and try again.';
