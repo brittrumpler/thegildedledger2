@@ -44,3 +44,7 @@ Microsoft/Xbox authentication follows Microsoft's published website sign-in flow
 ## Currency icons and font selection
 
 Gold, Doubloon and Ancient Coin icons are Sea of Thieves artwork by Microsoft / Rare, sourced from the [Sea of Thieves Wiki currency reference](https://seaofthieves.wiki.gg/wiki/Currencies). Windlass is supplied by the site owner. The [DaFont listing](https://www.dafont.com/windlass.font) marks the download for personal use. The archive includes no separate web embedding terms. IM Fell English is the fallback, with its SIL Open Font License in `assets/fonts/`.
+
+## Sea chart
+
+Island names, regions, grid references, thumbnail links, wildlife and fish listings in `data/atlas.json` are drawn from the [Sea of Thieves Wiki location index](https://seaofthieves.wiki.gg/wiki/Locations) and the individual location guides. Tall Tale stops are summarized from the [wiki's Tales index](https://seaofthieves.wiki.gg/wiki/Tales), its island guides and the linked Rare Thief walkthroughs. The chart artwork and interface are original. Wiki-derived material follows the attribution terms above.
