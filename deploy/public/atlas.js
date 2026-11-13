@@ -31,6 +31,29 @@ function coordinates(location) {
   return [.114 + (columns.indexOf(match[1]) + .5) * .0299, .111 + (Number(match[2]) - .5) * .0299];
 }
 
+function layoutLabels() {
+  const showNames = zoom >= 1.9;
+  chart.classList.toggle('show-names', showNames);
+  if (!showNames) return;
+
+  const markers = [...pins.querySelectorAll('.atlas-pin')];
+  const priority = marker => marker.dataset.place === selected ? 0 :
+    marker.classList.contains('outpost') ? 1 : marker.classList.contains('island') ? 2 : 3;
+  const labels = markers.sort((a, b) => priority(a) - priority(b)).map(marker => {
+    const label = marker.querySelector('.atlas-pin-label');
+    return { label, bounds: label.getBoundingClientRect() };
+  });
+  const placed = [];
+  for (const { label, bounds } of labels) {
+    const crowded = placed.some(other =>
+      bounds.left < other.right + 5 && bounds.right + 5 > other.left &&
+      bounds.top < other.bottom + 3 && bounds.bottom + 3 > other.top
+    );
+    label.classList.toggle('is-crowded', crowded);
+    if (!crowded) placed.push(bounds);
+  }
+}
+
 function setZoom(level, center = false) {
   const x = center ? .5 : (viewport.scrollLeft + viewport.clientWidth / 2) / (chart.offsetWidth || 1);
   const y = center ? .5 : (viewport.scrollTop + viewport.clientHeight / 2) / (chart.offsetHeight || 1);
@@ -40,6 +63,7 @@ function setZoom(level, center = false) {
   viewport.scrollTop = chart.offsetHeight * y - viewport.clientHeight / 2;
   $('atlas-out').disabled = zoom <= 1;
   $('atlas-in').disabled = zoom >= 3.8;
+  layoutLabels();
 }
 
 function setupOptions(id, values) {
@@ -91,6 +115,7 @@ function updateSelected() {
     button.setAttribute('aria-pressed', String(button.dataset.place === selected));
   }
   updateDetails();
+  layoutLabels();
 }
 
 function render() {
@@ -190,4 +215,5 @@ async function openMap() {
 }
 window.addEventListener('hashchange', openMap);
 window.addEventListener('resize', () => { if (locations && viewport.clientWidth) setZoom(zoom); });
+document.fonts.ready.then(layoutLabels);
 openMap();
