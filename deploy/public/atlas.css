@@ -57,6 +57,23 @@
   white-space: nowrap; font: 12px var(--sans); box-shadow: 0 3px 10px #0007;
 }
 .atlas-pin:is(:hover,:focus-visible,[aria-pressed=true]) .atlas-pin-label { display: block; }
+#atlas-chart.show-names .atlas-pin-label {
+  display: block;
+  top: calc(100% - 1px);
+  padding: 1px 3px;
+  color: #2d1b10;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  font: 700 13px/1.1 Georgia, serif;
+  text-shadow: 0 0 2px #ffdea4, 0 0 4px #ffdea4, 0 1px #ffdea4;
+}
+#atlas-chart.show-names .atlas-pin:not(:is(:hover,:focus-visible,[aria-pressed=true])) .is-crowded { visibility: hidden; }
+#atlas-chart.show-names .atlas-pin:is(:hover,:focus-visible,[aria-pressed=true]) .atlas-pin-label {
+  color: #28190f;
+  background: #f5d49c;
+  text-shadow: none;
+}
 .atlas-caption { margin: 0; padding: 9px 13px; color: var(--muted); font: 12px/1.4 var(--sans); }
 .atlas-side { display: grid; gap: 12px; min-width: 0; }
 .atlas-detail { padding: 14px; max-height: 460px; overflow-y: auto; }
