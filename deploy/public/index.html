@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#071c21"><meta name="description" content="A pirate’s field guide to Sea of Thieves treasure, emissary payouts, world event loot and Gold Rush hours.">
 <title>The Gilded Ledger · Sea of Thieves Field Guide</title>
 <link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="atlas.css">
+<link rel="stylesheet" href="atlas.css?v=map-table">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the ledger</a>
@@ -80,17 +80,11 @@
       </div>
       <div id="atlas-viewport" tabindex="0" aria-label="Interactive sea chart. Use arrow keys to pan, or choose a location from the list.">
         <div id="atlas-chart">
-          <div class="atlas-water" aria-hidden="true"></div>
-          <div id="atlas-axis" aria-hidden="true"></div>
-          <div class="atlas-region-label" style="--x:20%;--y:24%" aria-hidden="true">The Shores<br>of Plenty</div>
-          <div class="atlas-region-label" style="--x:62%;--y:18%" aria-hidden="true">The Wilds</div>
-          <div class="atlas-region-label" style="--x:33%;--y:67%" aria-hidden="true">The Ancient<br>Isles</div>
-          <div class="atlas-region-label" style="--x:85%;--y:59%" aria-hidden="true">The Devil’s<br>Roar</div>
-          <div class="atlas-compass" aria-hidden="true">N<br>✧</div>
+          <img class="atlas-parchment" src="assets/sea-chart.webp" alt="" width="1520" height="1520" decoding="async" loading="lazy" draggable="false">
           <div id="atlas-pins"></div>
         </div>
       </div>
-      <p class="atlas-caption">Markers show map squares. Locations outside the chart appear in the list.</p>
+      <p class="atlas-caption">Drag to pan and use + to zoom. Off-chart locations are in the list. Chart artwork by <a href="https://maps.seaofthieves.rarethief.com/" target="_blank" rel="noopener">Rare Thief</a>.</p>
     </section>
     <aside class="atlas-side" aria-label="Location guide">
       <article id="atlas-detail" class="atlas-detail" aria-label="Selected location">
@@ -138,6 +132,6 @@
 <script defer src="data/profile-exporter.js"></script>
 <script defer src="data/journal-00.js"></script>
 <script defer src="app.bundle.js"></script>
-<script type="module" src="atlas.js"></script>
+<script type="module" src="atlas.js?v=map-table"></script>
 <!-- END BUNDLED SCRIPTS -->
 </body></html>

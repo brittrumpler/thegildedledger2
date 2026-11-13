@@ -25,28 +25,21 @@ let selected;
 let zoom = 1;
 
 function coordinates(location) {
+  if (location.chart) return location.chart;
   const match = /^([A-Z])\s*-\s*(\d{1,2})$/.exec(location.grid);
   if (!match || Number(match[2]) < 1 || Number(match[2]) > rows) return null;
-  return [(columns.indexOf(match[1]) + .5) / columns.length, (Number(match[2]) - .5) / rows];
+  return [.114 + (columns.indexOf(match[1]) + .5) * .0299, .111 + (Number(match[2]) - .5) * .0299];
 }
 
 function setZoom(level, center = false) {
   const x = center ? .5 : (viewport.scrollLeft + viewport.clientWidth / 2) / (chart.offsetWidth || 1);
   const y = center ? .5 : (viewport.scrollTop + viewport.clientHeight / 2) / (chart.offsetHeight || 1);
   zoom = level;
-  chart.style.width = `${Math.round(Math.max(560, viewport.clientWidth) * zoom)}px`;
+  chart.style.width = `${Math.round(Math.min(viewport.clientWidth, viewport.clientHeight) * zoom)}px`;
   viewport.scrollLeft = chart.offsetWidth * x - viewport.clientWidth / 2;
   viewport.scrollTop = chart.offsetHeight * y - viewport.clientHeight / 2;
   $('atlas-out').disabled = zoom <= 1;
-  $('atlas-in').disabled = zoom >= 2.6;
-}
-
-function setupAxis() {
-  $('atlas-axis').innerHTML = [...columns].map((letter, index) =>
-    `<span class="axis-x" style="left:${(index + .5) / 26 * 100}%">${letter}</span>`
-  ).join('') + Array.from({ length: rows }, (_, index) =>
-    `<span class="axis-y" style="top:${(index + .5) / rows * 100}%">${index + 1}</span>`
-  ).join('');
+  $('atlas-in').disabled = zoom >= 3.8;
 }
 
 function setupOptions(id, values) {
@@ -151,8 +144,8 @@ map.addEventListener('click', event => {
   }
 });
 for (const id of filters) $(id).addEventListener(id === 'atlas-search' ? 'input' : 'change', () => locations && render());
-$('atlas-out').addEventListener('click', () => setZoom(Math.max(1, zoom - .4)));
-$('atlas-in').addEventListener('click', () => setZoom(Math.min(2.6, zoom + .4)));
+$('atlas-out').addEventListener('click', () => setZoom(Math.max(1, zoom / 1.4)));
+$('atlas-in').addEventListener('click', () => setZoom(Math.min(3.8, zoom * 1.4)));
 $('atlas-reset').addEventListener('click', () => setZoom(1, true));
 
 let drag;
@@ -179,7 +172,7 @@ async function openMap() {
     return;
   }
   if (load) return;
-  load = fetch('data/atlas.json').then(response => {
+  load = fetch('data/atlas.json?v=map-table').then(response => {
     if (!response.ok) throw new Error('Chart data request failed');
     return response.json();
   }).then(data => {
@@ -188,7 +181,6 @@ async function openMap() {
     setupOptions('atlas-region', locations.map(place => place.region));
     setupOptions('atlas-type', locations.map(place => place.group));
     setupOptions('atlas-tale', locations.flatMap(place => place.tales.map(tale => tale.title)));
-    setupAxis();
     render();
     requestAnimationFrame(() => setZoom(1, true));
   }).catch(() => {
