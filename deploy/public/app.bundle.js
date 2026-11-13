@@ -532,7 +532,7 @@ document.addEventListener('click',async ev=>{
 });
 
 function route(moveFocus=false){
- const tab=location.hash.slice(1)||'treasure';state.tab=['treasure','world-events','calendar','haul','cosmetics','commendations','pirate'].includes(tab)?tab:'treasure';
+ const tab=location.hash.slice(1)||'treasure';state.tab=['treasure','world-events','calendar','haul','cosmetics','commendations','pirate','map'].includes(tab)?tab:'treasure';
  document.querySelectorAll('.page-panel').forEach(p=>p.hidden=p.id!==state.tab);
  $('.hero').hidden=state.tab!=='treasure';
  document.querySelectorAll('[data-tab]').forEach(a=>{if(a.dataset.tab===state.tab)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});

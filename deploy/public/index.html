@@ -5,6 +5,7 @@
 <meta name="theme-color" content="#071c21"><meta name="description" content="A pirate’s field guide to Sea of Thieves treasure, emissary payouts, world event loot and Gold Rush hours.">
 <title>The Gilded Ledger · Sea of Thieves Field Guide</title>
 <link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="atlas.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the ledger</a>
@@ -18,6 +19,7 @@
   <a href="#commendations" data-tab="commendations"><span aria-hidden="true">✧</span> Commendations</a>
   <a href="#pirate" data-tab="pirate"><span aria-hidden="true">♙</span> My pirate</a>
   <a href="#haul" data-tab="haul"><span aria-hidden="true">♧</span> My haul <b id="haul-count">0</b></a>
+  <a href="#map" data-tab="map"><span aria-hidden="true">⌖</span> Map</a>
 </nav>
 <main id="main" tabindex="-1">
 <section class="hero" aria-labelledby="hero-title">
@@ -49,6 +51,59 @@
 <section id="cosmetics" class="page-panel" hidden aria-labelledby="cosmetics-title"><div class="section-heading"><div><h2 id="cosmetics-title" tabindex="-1">Cosmetic chest</h2></div><p id="cosmetic-coverage" class="meta"></p></div><p class="intro">Search clothing, equipment, weapons, ship cosmetics and pets. Open an item to see its price source and unlock requirements.</p><div class="journal-filters"><label class="search"><span>⌕</span><input id="cosmetic-search" type="search" placeholder="Find a jacket, cannon, cutlass or set…" aria-label="Search cosmetics"></label><label>Collection<select id="cosmetic-category"><option value="">All collections</option></select></label><label>My collection<select id="cosmetic-status"><option value="">All entries</option><option value="owned">Owned</option><option value="not-owned">Not owned</option><option value="unknown">Not yet imported</option><option value="goals">Wish list</option></select></label></div><div class="directory-toolbar"><button id="cosmetic-back" class="outline-button" hidden>← All collections</button><h3 id="cosmetic-scope" tabindex="-1"></h3></div><div id="cosmetic-directory"></div><p id="cosmetic-results" class="fine-print" aria-live="polite"></p><div id="cosmetic-grid" class="treasure-grid"></div><div class="load-more"><button id="cosmetic-more" class="outline-button">Show more cosmetics</button></div></section>
 <section id="commendations" class="page-panel" hidden aria-labelledby="commendations-title"><div class="section-heading"><div><h2 id="commendations-title" tabindex="-1">Commendations</h2></div><p id="commendation-coverage" class="meta"></p></div><p class="intro">See what to do, the grades to reach, and the cosmetic rewards each commendation unlocks. Imported progress and manual notes are labeled separately.</p><div class="journal-filters"><label class="search"><span>⌕</span><input id="commendation-search" type="search" placeholder="Search a deed, reward or requirement…" aria-label="Search commendations"></label><label>Chapter<select id="commendation-company"><option value="">All chapters</option></select></label><label>My progress<select id="commendation-status"><option value="">All entries</option><option value="completed">Completed</option><option value="incomplete">Still to complete</option><option value="unknown">Not yet imported</option><option value="goals">Pinned goals</option></select></label></div><div class="directory-toolbar"><button id="commendation-back" class="outline-button" hidden>← All chapters</button><h3 id="commendation-scope" tabindex="-1"></h3></div><div id="commendation-directory"></div><p id="commendation-results" class="fine-print" aria-live="polite"></p><div id="commendation-grid" class="commendation-grid"></div><div class="load-more"><button id="commendation-more" class="outline-button">Turn the next page ↓</button></div></section>
 <section id="pirate" class="page-panel" hidden aria-labelledby="pirate-title"><div class="section-heading"><div><h2 id="pirate-title" tabindex="-1">My pirate</h2></div><span class="meta">Your saved progress and collection</span></div><div id="pirate-content"></div><input id="profile-file" type="file" accept="application/json,.json" hidden aria-label="Import Sea of Thieves profile JSON"></section>
+
+<section id="map" class="page-panel atlas" hidden aria-labelledby="map-title">
+  <div class="section-heading">
+    <div><h2 id="map-title" tabindex="-1">Sea chart</h2></div>
+    <p class="meta" id="atlas-count">Loading locations…</p>
+  </div>
+  <p class="intro">Find islands by name or grid square. Pick a marker to see local details and Tall Tale stops.</p>
+  <div class="atlas-filters">
+    <label class="search"><span aria-hidden="true">⌕</span><input id="atlas-search" type="search" placeholder="Search an island or grid square…" aria-label="Search islands or grid squares"></label>
+    <label>Region<select id="atlas-region"><option value="">All regions</option></select></label>
+    <label>Location type<select id="atlas-type"><option value="">All types</option></select></label>
+    <label>Tall Tale<select id="atlas-tale"><option value="">All Tall Tales</option></select></label>
+  </div>
+  <div class="atlas-layout">
+    <section class="atlas-board" aria-label="Map">
+      <div class="atlas-toolbar">
+        <div class="atlas-key" aria-label="Map marker key">
+          <span><i class="atlas-symbol island"></i> Island</span>
+          <span><i class="atlas-symbol outpost"></i> Outpost</span>
+          <span><i class="atlas-symbol tale"></i> Tall Tale stop</span>
+        </div>
+        <div class="atlas-zoom" aria-label="Map zoom">
+          <button type="button" id="atlas-out" aria-label="Zoom out">−</button>
+          <button type="button" id="atlas-reset" aria-label="Reset map view">Reset</button>
+          <button type="button" id="atlas-in" aria-label="Zoom in">+</button>
+        </div>
+      </div>
+      <div id="atlas-viewport" tabindex="0" aria-label="Interactive sea chart. Use arrow keys to pan, or choose a location from the list.">
+        <div id="atlas-chart">
+          <div class="atlas-water" aria-hidden="true"></div>
+          <div id="atlas-axis" aria-hidden="true"></div>
+          <div class="atlas-region-label" style="--x:20%;--y:24%" aria-hidden="true">The Shores<br>of Plenty</div>
+          <div class="atlas-region-label" style="--x:62%;--y:18%" aria-hidden="true">The Wilds</div>
+          <div class="atlas-region-label" style="--x:33%;--y:67%" aria-hidden="true">The Ancient<br>Isles</div>
+          <div class="atlas-region-label" style="--x:85%;--y:59%" aria-hidden="true">The Devil’s<br>Roar</div>
+          <div class="atlas-compass" aria-hidden="true">N<br>✧</div>
+          <div id="atlas-pins"></div>
+        </div>
+      </div>
+      <p class="atlas-caption">Markers show map squares. Locations outside the chart appear in the list.</p>
+    </section>
+    <aside class="atlas-side" aria-label="Location guide">
+      <article id="atlas-detail" class="atlas-detail" aria-label="Selected location">
+        <h3>Choose a location</h3><p>Pick a marker or a place in the list.</p>
+      </article>
+      <div class="atlas-directory">
+        <div class="atlas-directory-heading"><h3>Locations</h3><p id="atlas-results" role="status"></p></div>
+        <div id="atlas-list"></div>
+      </div>
+    </aside>
+  </div>
+  <p class="fine-print atlas-sources">Island coordinates and listed objectives are sourced from the <a href="https://seaofthieves.wiki.gg/wiki/Locations" target="_blank" rel="noopener">Sea of Thieves Wiki</a>. Possible stops depend on the clues your crew receives.</p>
+</section>
 
 </main>
 <footer><img src="assets/mark.svg" alt="" width="32" height="32"><div><span>THE GILDED LEDGER</span><p>An unofficial, noncommercial fan project. Sea of Thieves © Microsoft / Rare.</p><p>Loot &amp; images: <a href="https://sotdb.gg/loot/" target="_blank" rel="noopener">SoTDB / PhuzzyBond</a> · Value research: <a href="https://seaofthieves.wiki.gg/wiki/Treasure" target="_blank" rel="noopener">Sea of Thieves Wiki</a> · <button class="inline-button" id="footer-sources">Data &amp; credits</button> · <a href="privacy.html">Privacy</a></p></div></footer>
@@ -83,5 +138,6 @@
 <script defer src="data/profile-exporter.js"></script>
 <script defer src="data/journal-00.js"></script>
 <script defer src="app.bundle.js"></script>
+<script type="module" src="atlas.js"></script>
 <!-- END BUNDLED SCRIPTS -->
 </body></html>
